@@ -148,3 +148,20 @@ section[id] { scroll-margin-top: 64px; }
   .mobile-bar .call { background: var(--accent); }
   .mobile-bar .line { background: #06c755; }
 }
+
+/* Services (製造・維修・出租) */
+.hero-services { color: var(--accent); }
+.service { border-top: 3px solid var(--accent); padding-top: 16px; }
+.service-no { color: var(--accent); font-weight: 700; font-size: .9rem; }
+.service h3 { margin: 2px 0 6px; font-size: 1.5rem; color: var(--navy); }
+.service p { margin: 0; color: var(--muted); }
+.service-inline { display: flex; gap: 8px; margin: 16px 0; }
+.service-inline b { border: 1.5px solid var(--accent); color: var(--accent); padding: 2px 12px; border-radius: 4px; font-size: .9rem; }
+.cap { font-size: .95rem; font-weight: 500; color: var(--accent); }
+.sub { margin: 40px 0 12px; color: var(--navy); font-size: 1.1rem; }
+.acc-list { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.acc-list a { display: block; padding: 8px 16px; background: #fff; border: 1px solid var(--line); border-radius: 6px; text-decoration: none; color: var(--ink); }
+.acc-list a:hover { border-color: var(--accent); color: var(--accent); }
+.acc-table th[scope="row"] { background: #fff; color: var(--navy); font-weight: 700; }
+.acc-table td { white-space: normal; }
+@media (max-width: 760px) { .services { gap: 20px; } }
