@@ -139,3 +139,7 @@ form.contact-form { display: grid; gap: 14px; }
   .stat strong { font-size: 1.5rem; }
   section { padding: 56px 0; }
 }
+
+section[id] { scroll-margin-top: 68px; }
+a.card { color: inherit; transition: .15s; }
+a.card:hover { border-color: var(--amber); box-shadow: 0 8px 24px rgba(20,33,61,.08); }
