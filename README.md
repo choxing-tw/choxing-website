@@ -29,7 +29,7 @@
 - [ ] 每頁 `<title>` 與 `<meta name="description">` 放入客戶會搜尋的關鍵字
 - [ ] 首頁與聯絡頁的 JSON-LD 公司資料（地址、電話）填入真實資訊
 - [ ] 詢問表單接上表單服務
-- [ ] 換上真實 LINE 官方帳號連結（目前暫用 `@choxing`）、Email
+- [ ] 換上真實 Email
 - [ ] 照片換成 `<img src="images/..." alt="說明文字" loading="lazy">`，每張都要有 alt
 - [ ] 上線後到 Google Search Console 驗證網站並提交 `sitemap.xml`
 - [ ] 申請 Google 商家檔案
