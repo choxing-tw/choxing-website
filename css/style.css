@@ -175,3 +175,4 @@ section[id] { scroll-margin-top: 64px; }
 .acc-photos figure { margin: 0; }
 .acc-photos figcaption { margin-top: 6px; color: var(--muted); font-size: .9rem; }
 @media (max-width: 760px) { .acc-photos { grid-template-columns: 1fr; } }
+.factory figure { margin: 0; }
