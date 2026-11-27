@@ -165,3 +165,13 @@ section[id] { scroll-margin-top: 64px; }
 .acc-table th[scope="row"] { background: #fff; color: var(--navy); font-weight: 700; }
 .acc-table td { white-space: normal; }
 @media (max-width: 760px) { .services { gap: 20px; } }
+
+/* Photos */
+.photo { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; display: block; background: #e9ecf1; }
+.grid-2 .photo { aspect-ratio: 16/10; }
+.case { margin: 0; }
+.case figcaption { margin-top: 10px; font-weight: 700; color: var(--navy); }
+.acc-photos { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 24px; }
+.acc-photos figure { margin: 0; }
+.acc-photos figcaption { margin-top: 6px; color: var(--muted); font-size: .9rem; }
+@media (max-width: 760px) { .acc-photos { grid-template-columns: 1fr; } }
