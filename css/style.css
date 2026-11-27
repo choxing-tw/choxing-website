@@ -174,5 +174,9 @@ section[id] { scroll-margin-top: 64px; }
 .acc-photos { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 24px; }
 .acc-photos figure { margin: 0; }
 .acc-photos figcaption { margin-top: 6px; color: var(--muted); font-size: .9rem; }
-@media (max-width: 760px) { .acc-photos { grid-template-columns: 1fr; } }
+
 .factory figure { margin: 0; }
+
+.brand-logo { width: 36px; height: 36px; display: block; }
+.acc-photos { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 760px) { .acc-photos { grid-template-columns: 1fr; } }
