@@ -112,3 +112,39 @@ section[id] { scroll-margin-top: 64px; }
   section { padding: 48px 0; }
 }
 .grid-2 .placeholder-img { aspect-ratio: 16/10; }
+
+/* Hero extras */
+.hero-patent { font-size: 1rem !important; color: #fff !important; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.hero-patent .patent-badge { background: var(--accent); }
+.hero .actions { display: flex; gap: 12px; flex-wrap: wrap; }
+.btn-ghost { border: 1.5px solid #fff; color: #fff; }
+.btn-ghost:hover { background: rgba(255,255,255,.1); }
+.page-hero p { margin: 6px 0 0; color: #cfd6e4; }
+.tag { font-size: .75rem; background: var(--accent); color: #fff; padding: 2px 8px; border-radius: 4px; vertical-align: middle; }
+
+/* Spec table */
+.table-wrap { overflow-x: auto; }
+.spec-table { width: 100%; border-collapse: collapse; background: #fff; font-size: .95rem; }
+.spec-table caption { text-align: left; color: var(--muted); font-size: .85rem; padding-bottom: 8px; }
+.spec-table th, .spec-table td { padding: 12px 16px; border-bottom: 1px solid var(--line); text-align: left; white-space: nowrap; }
+.spec-table th { background: var(--navy); color: #fff; font-weight: 500; }
+
+/* Cases */
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.case h3 { margin: 12px 0 2px; font-size: 1.1rem; color: var(--navy); }
+.case p { margin: 0; }
+
+/* Patent certificate */
+.cert-link { display: block; }
+.cert-link:hover .placeholder-img { outline: 2px solid var(--accent); }
+
+/* Mobile call / LINE bar */
+.mobile-bar { display: none; }
+@media (max-width: 760px) {
+  .grid-3 { grid-template-columns: 1fr; }
+  body { padding-bottom: 60px; }
+  .mobile-bar { display: grid; grid-template-columns: 1fr 1fr; position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; box-shadow: 0 -2px 10px rgba(0,0,0,.08); }
+  .mobile-bar a { text-align: center; padding: 16px 0; font-weight: 700; text-decoration: none; color: #fff; outline: none; }
+  .mobile-bar .call { background: var(--accent); }
+  .mobile-bar .line { background: #06c755; }
+}

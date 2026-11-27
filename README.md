@@ -6,11 +6,12 @@
 
 | 檔案 | 內容 |
 | --- | --- |
-| `index.html` | 首頁：主視覺、專利數字、代表專利、產品、洽詢 |
-| `about.html` | 關於我們：簡介、優勢、沿革 |
-| `patents.html` | 專利技術：專利一覽（證書號、國家、日期、白話說明） |
-| `products.html` | 產品與服務 |
-| `contact.html` | 聯絡資訊與詢問表單 |
+| `index.html` | 首頁：定位、專利亮點、產品、關於 |
+| `jack.html` | 工程用千斤頂：用途、規格表 |
+| `earth-pressure-gauge.html` | 土壓計（新型專利 M655534）：用途、規格表 |
+| `patents.html` | 專利：M655534 資料與證書（點擊放大） |
+| `projects.html` | 工程實績與測試 |
+| `contact.html` | 聯絡資訊與詢價表單 |
 | `404.html` | 找不到頁面 |
 | `css/style.css` | 全站樣式（品牌色在檔案最上方 `:root`） |
 | `js/main.js` | 手機選單 |
@@ -29,5 +30,9 @@
 - [ ] 首頁與聯絡頁的 JSON-LD 公司資料（地址、電話）填入真實資訊
 - [ ] 放上 `images/logo.png` 與 `images/og-image.png`（1200×630，分享到 LINE/FB 時的預覽圖）
 - [ ] 詢問表單接上表單服務
+- [ ] 換上真實 LINE 官方帳號連結（目前暫用 `@choxing`）、Email
+- [ ] 照片換成 `<img src="images/..." alt="說明文字" loading="lazy">`，每張都要有 alt
+- [ ] 專利證書照片存成 `images/patent-certificate.jpg`
+- [ ] 規格表填入真實型號與數值（用文字表格，不要用圖片）
 - [ ] 上線後到 Google Search Console 驗證網站並提交 `sitemap.xml`
 - [ ] 申請 Google 商家檔案

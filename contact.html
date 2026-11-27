@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>聯絡我們｜秋星有限公司 Choxing</title>
-  <meta name="description" content="聯絡秋星有限公司（Choxing），洽詢工程用千斤頂與土壓計。">
+  <title>聯絡我們｜千斤頂・土壓計詢價｜秋星有限公司</title>
+  <meta name="description" content="聯絡秋星有限公司詢問工程用千斤頂與土壓計。電話 (03) 359-4933，地址桃園市龜山區光華路1段191之1號。">
   <link rel="canonical" href="https://www.choxing.com.tw/contact.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="秋星有限公司 Choxing">
-  <meta property="og:title" content="聯絡我們｜秋星有限公司 Choxing">
-  <meta property="og:description" content="聯絡秋星有限公司（Choxing），洽詢工程用千斤頂與土壓計。">
+  <meta property="og:title" content="聯絡我們｜千斤頂・土壓計詢價｜秋星有限公司">
+  <meta property="og:description" content="聯絡秋星有限公司詢問工程用千斤頂與土壓計。電話 (03) 359-4933，地址桃園市龜山區光華路1段191之1號。">
   <meta property="og:url" content="https://www.choxing.com.tw/contact.html">
   <meta property="og:image" content="https://www.choxing.com.tw/images/og-image.png">
   <meta property="og:locale" content="zh_TW">
@@ -18,19 +18,14 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": "LocalBusiness",
+  "@id": "https://www.choxing.com.tw/#company",
   "name": "秋星有限公司",
   "alternateName": "Choxing Co., Ltd.",
   "url": "https://www.choxing.com.tw/",
   "logo": "https://www.choxing.com.tw/images/logo.png",
-  "description": "工程用千斤頂與土壓計，擁有多項專利技術。",
-  "knowsAbout": [
-    "工程用千斤頂",
-    "油壓千斤頂",
-    "土壓計",
-    "土壓力計",
-    "大地監測"
-  ],
+  "image": "https://www.choxing.com.tw/images/og-image.png",
+  "description": "工程用千斤頂與土壓計，土壓計取得中華民國新型專利 M655534。",
   "telephone": "+886-3-359-4933",
   "email": "info@choxing.com.tw",
   "address": {
@@ -39,7 +34,15 @@
     "addressLocality": "龜山區",
     "addressRegion": "桃園市",
     "addressCountry": "TW"
-  }
+  },
+  "openingHours": "Mo-Fr 09:00-18:00",
+  "knowsAbout": [
+    "工程用千斤頂",
+    "油壓千斤頂",
+    "土壓計",
+    "土壓力計",
+    "大地監測"
+  ]
 }
   </script>
 </head>
@@ -53,11 +56,11 @@
     <button class="nav-toggle" aria-label="開啟選單" aria-expanded="false">☰</button>
     <nav class="nav" aria-label="主選單">
       <ul>
-        <li><a href="index.html">首頁</a></li>
-        <li><a href="about.html">關於我們</a></li>
-        <li><a href="patents.html">專利技術</a></li>
-        <li><a href="products.html">產品</a></li>
-        <li><a href="contact.html" aria-current="page">聯絡我們</a></li>
+        <li><a href="jack.html">千斤頂</a></li>
+        <li><a href="earth-pressure-gauge.html">土壓計</a></li>
+        <li><a href="patents.html">專利</a></li>
+        <li><a href="projects.html">實績</a></li>
+        <li><a href="contact.html" aria-current="page">聯絡</a></li>
       </ul>
     </nav>
   </div>
@@ -65,23 +68,29 @@
 <main>
   <section class="page-hero">
     <div class="container">
-      <h1>聯絡我們</h1>
+      <h1>聯絡</h1>
     </div>
   </section>
   <section>
     <div class="container split" style="align-items:start">
-      <ul class="contact-list todo">
-        <li><b>電話</b><span><a href="tel:+88633594933">(03) 359-4933</a></span></li>
-        <li><b>Email</b><span>info@choxing.com.tw</span></li>
-        <li><b>地址</b><span>桃園市龜山區光華路1段191之1號</span></li>
-        <li><b>時間</b><span>週一至週五 09:00–18:00</span></li>
-      </ul>
+      <div>
+        <ul class="contact-list">
+          <li><b>電話</b><span><a href="tel:+88633594933">(03) 359-4933</a></span></li>
+          <li><b>LINE</b><span class="todo"><a href="https://line.me/R/ti/p/@choxing" target="_blank" rel="noopener">加入 LINE 詢問</a></span></li>
+          <li><b>Email</b><span class="todo">info@choxing.com.tw</span></li>
+          <li><b>地址</b><span>桃園市龜山區光華路1段191之1號</span></li>
+          <li><b>時間</b><span class="todo">週一至週五 09:00–18:00</span></li>
+        </ul>
+      </div>
       <!-- TODO：上線前接上表單服務（例如 Formspree），目前先用 Email 開啟 -->
       <form class="contact-form" action="mailto:info@choxing.com.tw" method="post" enctype="text/plain">
+        <label>詢問產品
+          <select name="產品" id="item"><option>千斤頂</option><option>土壓計</option><option>其他</option></select>
+        </label>
         <label>姓名<input name="姓名" required></label>
-        <label>電話或 Email<input name="聯絡方式" required></label>
-        <label>詢問內容<textarea name="內容" placeholder="例如：需要 50 噸千斤頂 2 台" required></textarea></label>
-        <button class="btn btn-primary" type="submit">送出</button>
+        <label>電話<input name="電話" type="tel" required></label>
+        <label>需求<textarea name="需求" placeholder="例如：100 噸千斤頂 2 台、工程地點"></textarea></label>
+        <button class="btn btn-primary" type="submit">送出詢價</button>
       </form>
     </div>
   </section>
@@ -89,10 +98,14 @@
 <footer class="site-footer">
   <div class="container">
     <p><strong>秋星有限公司 Choxing Co., Ltd.</strong>　工程用千斤頂・土壓計</p>
-    <p class="todo">電話 <a href="tel:+88633594933">(03) 359-4933</a>　｜　info@choxing.com.tw　｜　地址 桃園市龜山區光華路1段191之1號</p>
+    <p>電話 <a href="tel:+88633594933">(03) 359-4933</a>　｜　<span class="todo">info@choxing.com.tw</span>　｜　桃園市龜山區光華路1段191之1號</p>
     <p class="copyright">© <span id="year">2026</span> 秋星有限公司</p>
   </div>
 </footer>
+<div class="mobile-bar" aria-label="快速聯絡">
+  <a href="tel:+88633594933" class="call">📞 撥打電話</a>
+  <a href="https://line.me/R/ti/p/@choxing" class="line todo" target="_blank" rel="noopener">LINE 詢問</a>
+</div>
 <script src="js/main.js" defer></script>
 </body>
 </html>
