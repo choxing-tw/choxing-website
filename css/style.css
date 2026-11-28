@@ -177,7 +177,7 @@ section[id] { scroll-margin-top: 64px; }
 .factory figure { margin: 0; }
 
 .brand-logo { width: 36px; height: 36px; display: block; }
-.acc-photos { grid-template-columns: repeat(3, 1fr); }
+.acc-photos { grid-template-columns: repeat(4, 1fr); }
 @media (max-width: 760px) { .acc-photos { grid-template-columns: 1fr; } }
 .call-box { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
 .call-box p { margin: 0; font-size: 1.1rem; }
