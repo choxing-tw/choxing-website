@@ -186,3 +186,4 @@ section[id] { scroll-margin-top: 64px; }
 .grid-4 figure { margin: 0; }
 .grid-4 figcaption { margin-top: 6px; color: var(--muted); font-size: .9rem; }
 @media (max-width: 760px) { .grid-4 { grid-template-columns: 1fr 1fr; } }
+.grid-3 figure { margin: 0; }
