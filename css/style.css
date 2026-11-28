@@ -203,3 +203,6 @@ section[id] { scroll-margin-top: 64px; }
 .carousel .dots span { width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,.5); }
 .carousel .dots span.on { background: #fff; }
 @media (max-width: 760px) { .acc-cards { grid-template-columns: 1fr; } .carousel .nav { display: none; } }
+.advantage { margin: 16px 0 0; padding: 14px 18px; background: #fdf3e7; border-left: 4px solid var(--accent); border-radius: 4px; }
+.advantage h4 { margin: 0 0 6px; color: var(--navy); font-size: 1rem; }
+.advantage ul { margin: 0; padding-left: 1.2em; }
